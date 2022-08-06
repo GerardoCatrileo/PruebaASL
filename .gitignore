@@ -1,1 +1,11 @@
 /.metadata/
+sge/target/classes/application.properties
+sge/target/classes/cl/falabella/sge/aslplus/sge/controller/OcencController.class
+sge/target/classes/cl/falabella/sge/aslplus/sge/dao/OcencMapper.class
+sge/target/classes/cl/falabella/sge/aslplus/sge/entity/Ocenc.class
+sge/target/classes/cl/falabella/sge/aslplus/sge/mapper/ocenc-Mapper.xml
+sge/target/classes/cl/falabella/sge/aslplus/sge/ServletInitializer.class
+sge/target/classes/cl/falabella/sge/aslplus/sge/SgeApplication.class
+sge/target/m2e-wtp/web-resources/META-INF/maven/cl.falabella.sge.aslplus/sge/pom.properties
+sge/target/m2e-wtp/web-resources/META-INF/maven/cl.falabella.sge.aslplus/sge/pom.properties
+sge/target/m2e-wtp/web-resources/META-INF/maven/cl.falabella.sge.aslplus/sge/pom.properties
