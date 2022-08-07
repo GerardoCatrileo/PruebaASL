@@ -88,3 +88,5 @@ sge/target/sge-0.0.1-SNAPSHOT/WEB-INF/lib/txw2-2.3.6.jar
 sge/target/surefire-reports/cl.falabella.sge.aslplus.sge.SgeApplicationTests.txt
 sge/target/surefire-reports/TEST-cl.falabella.sge.aslplus.sge.SgeApplicationTests.xml
 sge/target/test-classes/cl/falabella/sge/aslplus/sge/SgeApplicationTests.class
+*.class
+*.jar

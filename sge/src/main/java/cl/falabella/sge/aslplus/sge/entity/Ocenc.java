@@ -1,15 +1,22 @@
 package cl.falabella.sge.aslplus.sge.entity;
 
-public class Ocenc {
+import java.beans.JavaBean;
+import java.io.Serializable;
+
+@JavaBean
+public class Ocenc implements Serializable{
 	
+	private static final long serialVersionUID = 1L;
+	
+	public Long numOC;
 	public String negocio;
 	public String canal;
-	public Integer numOC;
 	
 	public Ocenc() {
 		
 	}
-
+	
+	
 	public String getNegocio() {
 		return negocio;
 	}
@@ -26,13 +33,16 @@ public class Ocenc {
 		this.canal = canal;
 	}
 
-	public Integer getNumOC() {
+
+	public Long getNumOC() {
 		return numOC;
 	}
 
-	public void setNumOC(Integer numOC) {
+	public void setNumOC(Long numOC) {
 		this.numOC = numOC;
 	}
+	
+	
 	
 	
 }
