@@ -23,7 +23,6 @@ public class OcencServiceImpl implements OcencService {
 
 	@Override
 	public List<Ocenc> numOCList() {
-		ocencMapper.numOCList();
 		return ocencMapper.getAllOC();
 	}
 	
