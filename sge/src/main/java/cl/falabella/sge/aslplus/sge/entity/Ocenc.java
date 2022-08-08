@@ -11,6 +11,7 @@ public class Ocenc implements Serializable{
 	public Long numOC;
 	public String negocio;
 	public String canal;
+	private String xml;
 	
 	public Ocenc() {
 		
@@ -40,6 +41,16 @@ public class Ocenc implements Serializable{
 
 	public void setNumOC(Long numOC) {
 		this.numOC = numOC;
+	}
+
+
+	public String getXml() {
+		return xml;
+	}
+
+
+	public void setXml(String xml) {
+		this.xml = xml;
 	}
 	
 	

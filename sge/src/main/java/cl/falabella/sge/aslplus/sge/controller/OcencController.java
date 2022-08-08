@@ -36,6 +36,10 @@ public class OcencController {
 		return oc;
 	}
 	
-	
+	@PostMapping(value = "/getAllOrdenCompra", consumes = "application/json", produces = "application/json")
+	public List<Ocenc> getAllOdenCompra() {
+		
+		return ocencService.getAllOrdenCompra();
+	}
 
 }

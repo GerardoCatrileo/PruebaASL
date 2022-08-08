@@ -23,8 +23,10 @@ public class OcencServiceImpl implements OcencService {
 
 	@Override
 	public List<Ocenc> numOCList() {
+		ocencMapper.numOCList();
 		return ocencMapper.getAllOC();
 	}
+	
 
 	@Override
 	public Ocenc getOCByNum(Integer numOC) {
@@ -32,4 +34,8 @@ public class OcencServiceImpl implements OcencService {
 		return oc;
 	}
 
+	@Override
+	public List<Ocenc> getAllOrdenCompra() {
+		return ocencMapper.getAllOrdenCompra();
+	}
 }

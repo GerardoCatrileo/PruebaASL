@@ -2,12 +2,15 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 	<mapper namespace="cl.falabella.sge.aslplus.sge.dao.OcencMapper">
 		
+
 	<resultMap id="OcencMap" type="cl.falabella.sge.aslplus.sge.entity.Ocenc" >
 	  <id 		property="numOC" 		column="C_OCENC" 	javaType="java.lang.Long"/>
 	  <result	property="negocio" 		column="C_NEGOCIO" 	javaType="java.lang.String" 	jdbcType="VARCHAR"/>
 	  <result 	property="canal" 		column="C_CANAL" 	javaType="java.lang.String"		jdbcType="VARCHAR"/>
+	  <result   property="xml"          column="A_ORDEN"    javaType="java.lang.String" 	jdbcType="CLOB" />
+	  
 	</resultMap>
-
+	
     <select id = "numOC" resultMap="OcencMap">
         SELECT C_NEGOCIO, C_CANAL, C_OCENC
 	        FROM asl_ocenc
@@ -22,4 +25,6 @@
 			WHERE c_negocio = 'F'
 			AND c_canal = 'I'
     </select>
+
+
 </mapper>

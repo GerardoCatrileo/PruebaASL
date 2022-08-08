@@ -10,5 +10,6 @@ public interface OcencService {
 	public Ocenc numOC();
 	public List<Ocenc> numOCList();
 	public Ocenc getOCByNum (Integer numOC);
+	public List<Ocenc> getAllOrdenCompra();
 
 }
