@@ -21,7 +21,7 @@ public interface OcencMapper {
 	
 
 	@ResultType(Ocenc.class)
-	@Select.List(value = { @Select("SELECT TO_NUMBER(C_OCENC) AS numOC, C_CANAL AS canal, C_NEGOCIO as negocio  FROM asl_ocenc WHERE c_negocio = 'F' AND c_canal = 'I'") })
+	@Select.List(value = { @Select("SELECT TO_NUMBER(C_OCENC) AS numOC, C_CANAL AS canal, C_NEGOCIO as negocio  FROM asl_ocenc WHERE c_negocio = 'F' AND c_canal = 'I' AND D_COLOCACION BETWEEN TO_DATE('2021-01-01','yyyy-mm-dd') AND TO_DATE('2021-06-01','yyyy-mm-dd') ") })
 	public List<Ocenc> getAllOC();
 
 	

@@ -90,3 +90,6 @@ sge/target/surefire-reports/TEST-cl.falabella.sge.aslplus.sge.SgeApplicationTest
 sge/target/test-classes/cl/falabella/sge/aslplus/sge/SgeApplicationTests.class
 *.class
 *.jar
+.DS_Store
+.DS_Store
+.DS_Store
